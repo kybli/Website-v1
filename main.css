@@ -1,0 +1,120 @@
+html, body{
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+#intro{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background: url("Website Title1.jpg") center center scroll;
+	margin: 0px; 
+	background-size: cover;
+}
+#photolabel{
+	position: absolute;
+	left: 25px;
+	bottom: 10px;
+	color: white;
+	font-family: AvenirNext-Regular;
+} 
+#photolabel-top{
+	position: relative;
+	top:20px; 
+	font-size: 17px;
+}
+#photolabel-bottom{
+	font-size: 13px;
+}
+.about{
+	height: 100vh;
+	width: 100vw;
+}
+/*.about-header {
+	height:160px;
+	padding-top: 60px;
+	padding-left: 60px;
+ }
+ */
+ .about-header {
+	height:160px;
+	padding-top: 55px;
+	padding-left: 60px;
+ }
+ /*.about-header-chinese {
+    height: 160px;
+    left: 24px;
+    top: -12px;
+    width: 100%;
+    padding-left: 100px;
+    overflow: hidden;
+  }*/
+  .about-header-chinese {
+    height: 120px;
+    left: 24px;
+    top: -200px;
+    width: 100%;
+    padding-left: 138px;
+    overflow: hidden;
+  }
+
+  .about-header-chinese img {
+    height: 100%;
+    width: auto;
+  }
+ .about-header-title{
+ 	padding-top: 35px;
+ 	line-height: 56px;
+ }
+ .about-body{
+ 	padding-left:60px;
+ }
+ .grey-font{
+ 	font-family: AvenirNext-Regular;
+ 	color: #787878;
+ 	font-size:25px;
+ 	line-height: 35px;
+ 	margin-right: 700px;
+} 
+.portfolio{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(-180deg, #0D4CAD 0%, #998AB8 49%, #FFAA7E 100%);
+	background-size: cover;
+}
+.portfolio>div{
+	width: 27%;
+	height: 80%;
+	display: table;
+}
+.object{
+	float:left;
+	background: rgba(255,255,255,0.11);
+	border-radius: 40px;
+	display: table-cell;
+}
+.Contact{
+	height: 100vh;
+	width: 100vw;
+}
+#Button{
+	height: 60px;
+	width: 250px;
+	background: rgba(0,0,0,1) center center scroll;
+	border-radius: 2px;
+}
+.Center{
+	margin: 0;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+#get-in-touch{
+	color:#ffffff;
+}
